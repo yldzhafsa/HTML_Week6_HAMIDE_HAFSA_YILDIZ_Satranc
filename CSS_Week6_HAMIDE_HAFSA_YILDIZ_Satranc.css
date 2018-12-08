@@ -1,0 +1,22 @@
+table {
+    border: 1px solid;
+}
+
+td.number, tr.harf,tr.ilk{
+    border: 0px
+}
+td.a,td.b {
+    border: 1px solid #3c3c3c;
+    width: 40px;
+    height: 40px; 
+    font-size: 30px
+    }
+td.a {
+    background-color:#3c3c3c;
+}
+td.b{
+    background-color:white
+}
+td::after{
+    font-size: 30px
+}
